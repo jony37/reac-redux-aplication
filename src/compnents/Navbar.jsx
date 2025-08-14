@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { logo } from "./constants";
+import { logo } from "../constants";
 const Navbar = () => {
   return (
     <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom container pt-3 text-light">
