@@ -7,7 +7,7 @@ const Navbar = () => {
           <img src={logo} alt="" style={{ width: "60px", height: "60px", borderRadius: "20px", marginRight: "12px" }} />
           <span className="fs-4 text-dark">JONY</span>
       </Link>
-      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+      <nav className="d-inline-flex mt-2 mt-md-0 ms-md-auto">
         <Link className="me-3 py-2 link-body-emphasis text-decoration-none" to={'/login'}> Login</Link>
         <Link className="me-3 py-2 link-body-emphasis text-decoration-none" to={'/register'}> Register</Link>
       </nav>
