@@ -11,7 +11,6 @@ const Login = () => {
   const dispatch = useDispatch();
   const { isLoading } = useSelector((state) => state.auth);
 
-
   const loginHandler = (e) => {
     e.preventDefault();
     dispatch(loginUserStart());
@@ -44,9 +43,9 @@ const Login = () => {
             className="btn btn-primary w-100 py-2 mt-3"
             type="submit"
             onClick={loginHandler}
-            disabled ={isLoading}
+            disabled={isLoading}
           >
-            {isLoading ? 'loading...' : "login"}
+            {isLoading ? "loading..." : "login"}
           </button>
         </form>
       </main>
