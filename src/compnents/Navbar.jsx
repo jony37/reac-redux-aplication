@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { logo } from "../constants";
 const Navbar = () => {
   return (
-    <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom container pt-3 text-light">
+    <div className="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom container pt-3 text-light">
       <Link to={"/"} style={{display: "flex", alignItems: "center"}}>
           <img src={logo} alt="" style={{ width: "60px", height: "60px", borderRadius: "20px", marginRight: "12px" }} />
           <span className="fs-4 text-dark">JONY</span>
